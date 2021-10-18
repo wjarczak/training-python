@@ -39,6 +39,30 @@
 
 # ---Set---
 # names_set = set() - Pusty set
-names_set = {"Marek1", "Marek1", "Marek2", "Marek3"}
-names_set.add("Kamil")
-print(names_set)
+# names_set = {"Marek1", "Marek1", "Marek2", "Marek3"}
+# names_set.add("Kamil")
+# print(names_set)
+
+# Merge sets
+# name_set3 = names_set.union(names_set2)
+
+countries_and_captials = {"Poland":"Warsaw", "Germany":"Berlin"}
+countries_and_captials['Czechia'] = 'Prague'
+# print(countries_and_captials)
+# for country in countries_and_captials.keys():
+#     print(country)
+# for capital in countries_and_captials.values():
+#     print(capital)
+# for country, capital in countries_and_captials.items():
+#     print(country + "-" + capital)
+print(countries_and_captials["Poland"])  
+# if not found gets error
+print(countries_and_captials.get("Poland")) 
+# if not found gets "None"
+
+if "Poland" in countries_and_captials.keys():
+    print("Znaleziono!")
+else:
+    print("Słabo :(")
+
+print("Poland" in countries_and_captials)
