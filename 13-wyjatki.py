@@ -1,5 +1,8 @@
 countries_and_capitals = {'Poland': 'Warsaw',
-                            'Czechia': 'Prague', 'Germany': 'Berlin'}
+                            'Czechia': 'Prague',
+                            'Germany': 'Berlin',
+                            'USA': 'smth'
+                            }
 
 try:
     print(2 / 2)
