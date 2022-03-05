@@ -1,15 +1,15 @@
-light = input("Jakie jest światło? (red, green, yellow)")
+light = input("What light? (red, green, yellow)")
 
 if light == 'red':
-    print('Czekaj')
+    print('Wait')
 
 elif light == 'yellow':
-    print("Przygotuj się!")
+    print("Get ready!")
 
 elif light == 'green':
-    print("Jedź")
-    
+    print("Go Go Go!")
+
 else:
-        print("Zła wartość")
-    
-# print("Jedź") if light == 'green' else print("Czekaj!")
+        print("WRONG INPUT")
+
+# print("Go!") if light == 'green' else print("Wait!")

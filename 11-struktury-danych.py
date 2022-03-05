@@ -29,7 +29,7 @@
 # names_list3 = names_list + names_list2
 # print(names_list3)
 
-# ---Krotka---
+# ---Tuple---
 
 # names_list = ("Marek1", "Marek2", "Marek3")
 # person = ("Wojciech", "Jarczak", 23)
@@ -55,14 +55,14 @@ countries_and_captials['Czechia'] = 'Prague'
 #     print(capital)
 # for country, capital in countries_and_captials.items():
 #     print(country + "-" + capital)
-print(countries_and_captials["Poland"])  
+print(countries_and_captials["Poland"])
 # if not found gets error
-print(countries_and_captials.get("Poland")) 
+print(countries_and_captials.get("Poland"))
 # if not found gets "None"
 
 if "Poland" in countries_and_captials.keys():
-    print("Znaleziono!")
+    print("Found!!")
 else:
-    print("Słabo :(")
+    print("U're silly boy :(")
 
 print("Poland" in countries_and_captials)

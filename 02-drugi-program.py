@@ -1,3 +1,3 @@
-name = input("Podaj imię: ")
+name = input("Please insert your name: ")
 
-print("Cześć, " + name)
+print("Hi, " + name)

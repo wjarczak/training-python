@@ -30,7 +30,7 @@ def save_tasks_to_file():
         file.close()
 
 def load_tasks_from_file():
-    try:   
+    try:
         file = open("tasks.txt")
 
         for line in file.readlines():
@@ -54,7 +54,7 @@ while user_choice != 5:
 
     if user_choice == 4:
         save_tasks_to_file()
-        
+
     print()
     print("1. Show task")
     print("2. Add task")
